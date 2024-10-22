@@ -1,0 +1,989 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+/* Change this to your desired header color */
+  position: relative;
+ 
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 11, 65);
+}
+
+.navbar-logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.navbar-logo h1 {
+  font-size: 50px;
+  color: #f4f4f4;
+  font-family: Nunito, sans-serif;
+}
+
+/* Navigation links */
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(232, 237, 232);
+  transition: color 0.3s;
+  font-family: Nunito, sans-serif;
+}
+
+.navbar-menu a:hover {
+  color: black;
+}
+
+/* Dropdown */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  color: #084c61;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.join-class-btn {
+  background-color: #008b99;
+  color: white;
+  padding: 10px 20px;
+  border: beige;
+  border: 2px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.join-class-btn:hover {
+  background-color: #006f7a;
+}
+
+/* home section */
+
+.home {
+  display: flex;
+  background-color: #17a2b8;
+  color: white;
+  font-weight: 600;
+}
+
+.home #text1 {
+  font-size: 30px;
+  font-family: "Handlee", cursive;
+}
+
+#home .home #firstdiv {
+  margin-left: 60px;
+  margin-top: 150px;
+  font-family: "Handlee", cursive;
+}
+
+#home .home #firstdiv #text2 {
+  font-size: 70px;
+  font-family: "Handlee", cursive;
+}
+#text3 {
+  padding-bottom: 50px;
+}
+
+#home .home #firstdiv #kids {
+  font-size: 70px;
+}
+
+#home .home #img {
+  height: 100%;
+}
+
+/* learn more btn */
+
+.learn-more-btn {
+  background-color: #00394f;
+  color: white;
+  padding-right: 10px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #1e7091;
+}
+
+/*SECOND SECTION(FACILITIES-PLAYGROUND ,EDUCATIONAL TOUR, HEALTHY FOOD ,DANCE) */
+.about{
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #dee2e6;
+  gap: 10%;
+}
+
+.bx {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  padding-bottom: 10px;
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-align: left;
+  width: 21.5%;
+  height: 23.5%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2.5%;
+}
+
+.bx h4 {
+  font-family: Handlee, cursive;
+  font-weight: 700;
+  color: #00394f;
+  font-weight: 1000px;
+  unicode-bidi: isolate;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.bx p {
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-align: left;
+  padding-bottom: 8px;
+  padding-left: 15px;
+}
+
+/*  THIRD SECTION(BEST SCHOOL FOR YOUR KIDS)*/
+.third {
+  display: flex;
+  justify-content: space-around;
+}
+.third img {
+  height: 60vh;
+  width: 50vh;
+  margin-top: 60px;
+  border-radius: 5px;
+  top: 30px;
+}
+
+.content3 h5 {
+  font-family: Nunito, sans-serif;
+  font-weight: 200;
+  position: relative;
+  right: 59%;
+  bottom: 20px;
+  color: #2db8e2;
+  font-size: 20px;
+}
+
+.content3 h1 {
+  font-family: Handlee, cursive;
+  font-weight: 300;
+  position: relative;
+  right: 37%;
+  bottom: 20px;
+  color: black;
+  font-size: 38.5px;
+}
+.content3 p {
+  font-family: Nunito, sans-serif;
+  font-weight: 50;
+  position: relative;
+  right: 21.5%;
+  color: black;
+  font-size: 15px;
+}
+
+.content3 {
+  position: relative;
+  right: 10%;
+  text-align: center;
+  top: 100px;
+}
+.mid img {
+  width: 50%;
+  height: 30%;
+  position: relative;
+  /* right: 21%; */
+  top: -40px;
+  padding-right: 30%;
+  width: 100%;
+}
+.mid {
+  display: flex;
+}
+.line {
+  position: relative;
+  top: 20px;
+  gap: 30px;
+}
+
+.line h4 {
+  border-bottom: 1px solid black;
+}
+
+.fa-solid {
+  color: #1e7091;
+  text-align: left;
+  padding-right: 10px;
+}
+.align {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 6%;
+}
+
+.bt {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #084c61;
+  color: #ddd;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.bt :hover {
+  color: #2db8e2;
+}
+}
+
+/* FIFTH SECTION(BOOK A SEAT) */
+
+.fifth {
+  display: flex;
+  text-align: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+.left h5 {
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 25px;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.left h1 {
+  font-family: Handlee, cursive;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #00394f;
+  padding-bottom: 10px;
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.left p {
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  margin-left: 25px;
+  padding-bottom: 20px;
+}
+
+.fa-solid {
+  color: green;
+  text-align: left;
+}
+
+.left li {
+  list-style: none;
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666;
+  margin-left: 25px;
+}
+
+.book1 {
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin-right: 8px;
+  background-color: #1b4957;
+}
+
+.form {
+  border: 1px solid black;
+  position: relative;
+  left: 200px;
+  top: 35px;
+  width: 60vh;
+  background-color: #17a2bb;
+  border-radius: 8px;
+}
+.form .fill h2 {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #00394f;
+}
+
+.form .fill #name {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 45px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+
+.form .fill #email {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 45px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.form .fill #down {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.book2 {
+  background-color: #084c61;
+  text-align: center;
+  color: white;
+  font-family: Nunito, sans-serif;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/* SIXTH SECTION (TEACHERS) */
+
+.parent {
+  padding-top: 150px;
+}
+
+.parent h3 {
+  font-family: Nunito, sans-serif;
+  text-align: center;
+  color: #008b99;
+  padding-bottom: 20px;
+  letter-spacing: 1ch;
+}
+
+.parent h1 {
+  font-family: 56Nunito, sans-serif;
+  text-align: center;
+  color: #008b99;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5%;
+}
+.class img {
+  border-radius: 20px;
+}
+
+/* hover */
+
+.team.class img :hover {
+  color: #5d95ac;
+}
+
+.team .class h2:hover {
+  color: cornflowerblue;
+}
+
+.team .class h4:hover {
+  color: crimson;
+}
+
+.class h2 {
+  font-family: Handlee, cursive;
+  text-align: center;
+}
+
+.class h4 {
+  font-family: Nunito, sans-serif;
+  text-align: center;
+}
+
+/* seventh section */
+.testimonial {
+  margin-top: 20px;
+}
+
+.testimonial h3 {
+  font-family: Nunito, sans-serif;
+  color: #17a2bb;
+  text-align: center;
+  font-weight: 200;
+}
+
+.testimonial h1 {
+  font-family: Handlee, cursive;
+  color: #17a2bb;
+  text-align: center;
+  font-weight: 700;
+}
+
+.testimonialcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.parents {
+  margin-top: 20px;
+  margin-left: 80px;
+  border-radius: 10px;
+  padding-bottom: 95px;
+  padding-left: 10px;
+  height: 55%;
+  width: 70%;
+  border: 1px solid black;
+  background-color: lavender;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 50px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.photo h2 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: Handlee, cursive;
+  font-weight: 400;
+  color: #1c5668;
+  text-align: center;
+}
+
+.photo h3 {
+  margin-left: 20px;
+  font-family: Nunito, sans-serif;
+  font-weight: 200;
+  color: #1e7091;
+  text-align: center;
+}
+
+.parents p {
+  text-align: center;
+  font-family: Nunito, sans-serif;
+  color: black;
+  padding-top: 35px;
+  padding-right: 5px;
+}
+
+/* EIGHTH SECTION */
+
+.blog-section {
+  margin-top: 20px;
+}
+.blogcontainer1 {
+  margin-left: 100px;
+}
+
+.blog-section h3 {
+  font-family: Nunito, sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #008b99;
+}
+
+.blog-section h1 {
+  font-family: Handlee, cursive;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+}
+
+/* images */
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-left: 80px;
+}
+
+.blog {
+  height: 110%;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.paragraph {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blogheading h1 {
+  font-family: Handlee, cursive;
+  font-weight: 400;
+  color: #084c61;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.blogicons {
+  color: #1b4957;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-bottom: 10px;
+}
+
+.admin {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+.web {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+.comment {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+.para {
+  border: 1px solid black;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.para h2 {
+  font-family: Handlee, cursive;
+  text-align: center;
+  color: black;
+}
+.para p {
+  font-family: Nunito, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.para .mine {
+  background-color: #1e7091;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 25%;
+  height: 30%;
+}
+
+/* footer section */
+
+.footer {
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #1c5668;
+  display: flex;
+  justify-content: space-evenly;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first h1 {
+  color: white;
+  font-family: Handlee, cursive;
+}
+.first p {
+  color: white;
+  font-family: Nunito, sans-serif;
+}
+
+.icon:hover {
+  color: white;
+}
+/* get in touch */
+.cone {
+  display: flex;
+  gap: 20px;
+  color: #17a2bb;
+}
+.cone h4 {
+  color: white;
+  font-family: Nunito, sans-serif;
+}
+.cone p {
+  color: white;
+  font-family: Handlee, cursive;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* quick links */
+.six {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+/* news */
+.fourth {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn {
+  background-color: #17a2bb;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid black;
+  color: white;
+}
+
+.btn:hover {
+  color: #f9f9f9;
+  background-color: lightcoral;
+}
+span {
+  color: #17a2bb;
+  font-family: Handlee, cursive;
+}
+
+#text1 {
+  color: white;
+}
+#text2 {
+  color: white;
+}
+#text3 {
+  color: white;
+}
+
+/* Add these styles to your existing CSS */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #17a2b8; /* Replace with your header blue color */
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px; /* Add spacing between menu items */
+}
+
+.hamburger {
+  display: none; /* Hide the hamburger menu by default */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 4px;
+  width: 25px;
+  background-color: white; /* Color of the hamburger bars */
+  margin: 3px 0;
+}
+/* Add this to your existing CSS */
+
+/* Hide the checkbox and make it transparent */
+.menu-toggle {
+  display: none; /* Hide the checkbox */
+}
+
+/* Ensure the label is styled properly */
+.hamburger {
+  display: none; /* Hide the hamburger menu by default */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* Hamburger bar styles */
+.bar {
+  height: 4px;
+  width: 25px;
+  background-color: white; /* Color of the hamburger bars */
+  margin: 3px 0;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none; /* Hide the menu initially */
+    flex-direction: column;
+    position: absolute;
+    background-color: black; /* Match your header blue color */
+    top: 50px; /* Position below the navbar */
+    width: 767px;
+    left: 0;
+  }
+
+  .navbar-menu a {
+    padding: 10px;
+    color: white; /* Change the color as needed */
+  }
+
+  #menu-toggle:checked + .hamburger + .navbar-menu {
+    display: flex; /* Show the menu when checked */
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger on smaller screens */
+  }
+
+  #home .home img {
+    width: 191px;
+  }
+  .third {
+    flex-direction: column;
+  }
+  .mid {
+    flex-direction: column;
+  }
+  .bt {
+    flex-direction: column;
+  }
+
+  .third img {
+    width: 100%;
+    height: auto;
+  }
+  .fifth {
+    flex-direction: column;
+  }
+  .team {
+    grid-template-columns: 1fr 1fr;
+  }
+  .image {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+  }
+  .parents p {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Additional styles for smaller screens */
+  .navbar-menu a {
+    font-size: 14px; /* Adjust font size if necessary */
+  }
+  .home {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .navbar {
+    position: static;
+  }
+  #home .home #firstdiv #kids {
+    font-size: inherit;
+  }
+  .bx {
+    width: 100%;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .form {
+    position: static;
+    padding: 20px;
+  }
+  .fifth {
+    justify-content: center;
+    align-items: center;
+  }
+  .team {
+    grid-template-columns: 1fr;
+  }
+  .image {
+    grid-template-columns: 1fr;
+  }
+  .images {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .paragraph {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .third img {
+    padding: 0px;
+  }
+  .content3 h1 {
+    position: static;
+  }
+  .content3 p {
+    position: static;
+  }
+  .align {
+    position: static;
+  }
+  .content3 {
+    position: static;
+  }
+  .images {
+    place-items: center;
+    margin-left: 0px;
+  }
+  .parents {
+    position: static;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+  }
+  .images {
+    gap: 50px;
+  }
+  .team {
+    place-items: center;
+  }
+}
